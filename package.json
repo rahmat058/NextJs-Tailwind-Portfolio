@@ -1,4 +1,7 @@
 {
+  "name": "next-portfolio-website",
+  "homepage": "http://john-smith.com",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -6,9 +9,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "next": "latest",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
+    "swiper": "^8.2.4"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
